@@ -1,0 +1,76 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styles */
+  body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background-color: #333; /* Dark grey background for the page */
+  }
+  
+  /* Banner Styles */
+  .banner {
+    width: 100%;
+    height: 15vh; /* Top third of the page */
+    background: linear-gradient(to bottom, #ff6600 0%, #FFA500 90%, #ffee00 100%); /* Orange gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Sunrise Graphic Created with CSS */
+  .sunrise {
+    width: 30%;
+    height: 100%;
+    background: radial-gradient(farthest-side, 
+      rgba(255, 255, 255, 0.9) 10%, /* white center with some opacity */
+      rgba(255, 255, 0, 0.6) 80%, /* yellowish tint as it fades out */
+      rgba(255, 255, 0, 0) 90% /* yellow fades to fully transparent at the edges */
+    );
+    border-radius: 80%;
+    position: absolute;
+    bottom: -50%;
+    z-index: 1;
+  }
+  
+  /* Header */
+  header {
+    width: 100%;
+    padding: 10px 0;
+    position: relative;
+  }
+  
+  /* Main Content */
+  main {
+    padding: 20px;
+    background-color: #333; /* Dark grey */
+    color: white;
+  }
+  
+  /* Header Text */
+  h1 {
+    font-size: 2em;
+  }
+
+  h1, h2 {
+    margin-bottom: 10px;
+    text-align: left;
+    color: white;
+  }
+
+  h2 {
+    margin-top: 20px;
+  }
+  
+  /* Paragraph Styling */
+  p {
+    font-size: 1em;
+    color: #ccc;
+  }
+  
