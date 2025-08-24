@@ -76,7 +76,11 @@ h4 {
   text-indent: 0em;
 }
 
-h2 {
+h4 {
+  margin-left:3em;
+}
+
+h2,h3,h4 {
   margin-top: 20px;
 }
 
@@ -86,7 +90,9 @@ p {
 }
 
 div {
-  text-indent: 5em;
-  padding-left: -5em;
+  /* text-indent: 5em; */
+  /* padding-left: -5em; */
   white-space: pre-wrap;
+  display:inline-block;
+  margin-left:3em;
 }
