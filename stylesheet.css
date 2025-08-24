@@ -8,9 +8,7 @@
 /* Body Styles */
 body {
   font-family: Arial, sans-serif;
-  height: 100vh;
   background-color: #333;
-  /* Dark grey background for the page */
   color: #ccc;
 }
 
@@ -26,6 +24,7 @@ body {
   align-items: center;
   position: relative;
   overflow: hidden;
+  margin-left:0em;
 }
 
 /* Sunrise Graphic Created with CSS */
@@ -44,6 +43,11 @@ body {
   position: absolute;
   bottom: -50%;
   z-index: 1;
+  margin-left:0em;
+}
+
+img {
+  max-width:100%;
 }
 
 /* Header */
@@ -55,13 +59,14 @@ header {
 
 /* Main Content */
 main {
-  padding: 20px;
-  background-color: #333;
-  /* Dark grey */
-  /* color: white; */
+  margin-left: 20px;
+  line-height: 150%;
 }
 
-/* Header Text */
+ul, li {
+  padding-left: 20px;
+}
+
 h1 {
   font-size: 2em;
 }
