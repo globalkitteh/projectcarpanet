@@ -204,8 +204,8 @@
 
     == Building OIDC for Technitium (carpaDNS)
 
-    - The issue: https://github.com/darksbain6749/DnsServer/tree/cmlpoc
-    - The fix (in progress, but a working proof of concept!): https://github.com/TechnitiumSoftware/DnsServer/issues/512
+    - The issue: https://github.com/TechnitiumSoftware/DnsServer/issues/512
+    - The fix (in progress, but a working proof of concept!): https://github.com/darksbain6749/DnsServer/tree/cmlpoc
 
     This was an interesting project. It took several iterations. The first being an entirely hijacked login page with hard-coded values (no option for non-OIDC login). The second major iteration was the option to do login with native Technitium or OIDC (still hard-coded values). The third iteration allows input in the Administration settings in the GUI and saves the config to disk in an encrypted config file. There where also some nuances between the Windows dev environment and Linux/Unix that needed addressed when all was done and working.
 
